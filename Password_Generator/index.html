@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Generator</h1>
+    <div class="password-box">
+      <input type="number" id="length" placeholder="Password Length">
+      <div class="checkbox-container">
+        <label><input type="checkbox" id="uppercase" checked> Uppercase</label>
+        <label><input type="checkbox" id="lowercase" checked> Lowercase</label>
+        <label><input type="checkbox" id="numbers" checked> Numbers</label>
+        <label><input type="checkbox" id="special-chars" checked> Special Characters</label>
+      </div>
+      <input type="text" id="password" readonly>
+      <button id="generate-btn">Generate Password</button>
+    </div>
+  </div>
+  <footer class="footer">
+    &copy; 2023 Anushka Bhowmick . All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
